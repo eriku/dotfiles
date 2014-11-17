@@ -59,9 +59,6 @@ export PATH="$(brew --prefix homebrew/php/php54)/bin:$PATH"
 # ------------------------------
 
 source ~/.bash_aliases
-source ~/.bash_aliases_emu
-source ~/.bash_aliases_d7
-source ~/.bash_aliases_veratta
 
 source ~/.bash_functions
 
@@ -89,21 +86,3 @@ source ~/.git-prompt.sh
 
 # Colored
 PS1='\[\e[1;33m\]\h:\[\e[0m\]\[\e[1;32m\]$(last_two_dirs)\[\e[0m\]\[\e[1;31m\]$(__git_ps1 " (%s)")\[\e[0m\]\$ '
-
-##
-# Your previous /Users/erik/.bash_profile file was backed up as /Users/erik/.bash_profile.macports-saved_2014-04-29_at_15:06:21
-##
-
-# MacPorts Installer addition on 2014-04-29_at_15:06:21: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
-
-
-##
-# Your previous /Users/erik/.bash_profile file was backed up as /Users/erik/.bash_profile.macports-saved_2014-04-29_at_15:13:37
-##
-
-# MacPorts Installer addition on 2014-04-29_at_15:13:37: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
-

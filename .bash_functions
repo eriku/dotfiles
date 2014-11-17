@@ -3,6 +3,14 @@ function mkd() {
   mkdir -p "$@" && cd "$@"
 }
 
+function push() {
+  git push origin "$@"
+}
+
+function pull() {
+  git pull origin "$@"
+}
+
 function gittop(){
   top=$(git rev-parse --show-toplevel)
   if [ 0 -eq $? ]; then
