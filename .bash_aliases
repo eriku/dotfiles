@@ -28,35 +28,11 @@ alias enabledashboard="efaults write com.apple.dashboard mcx-disabled -boolean N
 # ------------------------------
 
 # STANDARD ALIASES
-alias cd..='cd ..'
 alias l='ls -al'
 alias ll='ls -alFh'
 alias lp='ls -p'
 alias h=history
 alias space='df -h'
-
-
-# ------------------------------
-
-# NAVIGATION
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
-
-
-# ------------------------------
-
-# SHORTCUTS
-alias d="cd ~/Documents/Dropbox"
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias db='cd ~/Databases'
-alias p="cd ~/projects"
-alias s='cd ~/Sites'
-alias g="git"
-alias h="history"
-alias j="jobs"
 
 
 # ------------------------------
@@ -86,8 +62,8 @@ alias offline='drush vset --always-set maintenance_mode 1'
 # ------------------------------
 
 # GIT
-alias pushdev='git push origin develop'
-alias pulldev='git pull origin develop'
+alias gst='git status'
+alias gbr='git branch -a'
 
 
 # ------------------------------
